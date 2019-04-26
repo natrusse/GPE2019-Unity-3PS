@@ -78,8 +78,10 @@
     <Compile Include="Assets\External Assets\Game Jam Template\Scripts\Menu\ShowPanels.cs" />
     <Compile Include="Assets\External Assets\Game Jam Template\Scripts\Menu\StartOptions.cs" />
     <Compile Include="Assets\PlayerScripts\CameraControl.cs" />
-    <Compile Include="Assets\PlayerScripts\CharControl.cs" />
     <Compile Include="Assets\PlayerScripts\CharControlReworked.cs" />
+    <Compile Include="Assets\PlayerScripts\GameManager.cs" />
+    <Compile Include="Assets\PlayerScripts\HealthSystem.cs" />
+    <Compile Include="Assets\PlayerScripts\UIHealthText.cs" />
     <None Include="Assets\External Assets\Game Jam Template\Fonts\OpenSans\License!.txt" />
     <None Include="Assets\External Assets\Toby Fredson\Rocky Hills Environment - Light Pack\Legacy Project\Legacy Project_Read Me!.txt" />
     <None Include="Assets\External Assets\Game Jam Template\GameJamTemplateReadMe.txt" />

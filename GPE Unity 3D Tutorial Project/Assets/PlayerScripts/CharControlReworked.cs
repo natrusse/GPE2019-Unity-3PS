@@ -45,11 +45,13 @@ public class CharControlReworked : MonoBehaviour
             {
                 moveDir.y = jumpForce;
                 anim.SetBool("IsJumping", true);
+                anim.SetBool("IsRunning", false);
             }
 
             if (Input.GetKey(KeyCode.LeftShift))
             {
-                moveDir *= speed * sprintBoost;
+                moveDir.x *= speed * sprintBoost;
+                moveDir.z *= speed * sprintBoost;
                 anim.SetBool("IsRunning", true);
             }
         }
