@@ -6,8 +6,8 @@ using UnityEngine;
 
 public class CameraControl : MonoBehaviour {
 
-    public Transform target;
-    public Vector3 offset;
+    public Transform target; // finds and grabs the character controller to follow
+    public Vector3 offset; // allows easy inspector manipulation of camera angle
 
     public float smoothSpeed = 0.125f;
 
